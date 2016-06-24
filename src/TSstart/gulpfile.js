@@ -10,11 +10,13 @@ var gulp = require("gulp"),
 var webroot = "./wwwroot/";
 
 var paths = {
-    js: webroot + "js/**/*.js",
-    minJs: webroot + "js/**/*.min.js",
+	js: webroot + "scripts/**/*.js",
+	ts: webroot + "scripts/**/*.ts",
+	maps: webroot + "scripts/**/*.map",
+	minJs: webroot + "scripts/**/*.min.js",
     css: webroot + "css/**/*.css",
     minCss: webroot + "css/**/*.min.css",
-    concatJsDest: webroot + "js/site.min.js",
+    concatJsDest: webroot + "scripts/site.min.js",
     concatCssDest: webroot + "css/site.min.css"
 };
 
